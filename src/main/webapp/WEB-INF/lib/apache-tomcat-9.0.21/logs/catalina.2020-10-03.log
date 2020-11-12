@@ -1,0 +1,827 @@
+03-Oct-2020 10:14:58.660 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:        Apache Tomcat/9.0.21
+03-Oct-2020 10:14:58.695 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.构建:          Jun 4 2019 20:19:36 UTC
+03-Oct-2020 10:14:58.695 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.21.0
+03-Oct-2020 10:14:58.696 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Oct-2020 10:14:58.696 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:            10.0
+03-Oct-2020 10:14:58.696 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 结.造:          amd64
+03-Oct-2020 10:14:58.696 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:             D:\Program Files\jdk\jdk-11.0.2
+03-Oct-2020 10:14:58.698 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:           11.0.2+9-LTS
+03-Oct-2020 10:14:58.698 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+03-Oct-2020 10:14:58.699 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Program Files\apache-tomcat-9.0.21
+03-Oct-2020 10:14:58.699 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Program Files\apache-tomcat-9.0.21
+03-Oct-2020 10:14:58.869 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Oct-2020 10:14:58.869 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Oct-2020 10:14:58.869 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Oct-2020 10:14:58.876 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Program Files\apache-tomcat-9.0.21\conf\logging.properties
+03-Oct-2020 10:14:58.876 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Oct-2020 10:14:58.876 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Oct-2020 10:14:58.877 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Oct-2020 10:14:58.880 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Oct-2020 10:14:58.881 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Program Files\apache-tomcat-9.0.21
+03-Oct-2020 10:14:58.881 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Program Files\apache-tomcat-9.0.21
+03-Oct-2020 10:14:58.881 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Program Files\apache-tomcat-9.0.21\temp
+03-Oct-2020 10:14:58.881 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\jdk\jdk-11.0.2\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\Program Files\jdk\jdk-11.0.2\bin;D:\Program Files\Linux\exe\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Git\cmd;D:\android\android-studio\jre\bin;D:\android\sdk;D:\android\sdk\platform-tools;;C:\Users\Administrator\nvmw;D:\Program Files\TortoiseGit\bin;D:\Program Files\Mysql\mysql-5.6.49-winx64\bin;D:\Program Files\apache-maven-3.5.0\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\vscode\Microsoft VS Code\bin;.]
+03-Oct-2020 10:14:59.217 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+03-Oct-2020 10:14:59.437 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["ajp-nio-8009"]
+03-Oct-2020 10:14:59.460 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1,354]毫秒内初始化
+03-Oct-2020 10:14:59.532 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Oct-2020 10:14:59.532 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.21]
+03-Oct-2020 10:14:59.544 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\Program Files\apache-tomcat-9.0.21\webapps\docs]
+03-Oct-2020 10:14:59.996 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Program Files\apache-tomcat-9.0.21\webapps\docs] has finished in [452] ms
+03-Oct-2020 10:14:59.998 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\Program Files\apache-tomcat-9.0.21\webapps\examples]
+03-Oct-2020 10:15:00.897 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Program Files\apache-tomcat-9.0.21\webapps\examples] has finished in [898] ms
+03-Oct-2020 10:15:00.898 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\Program Files\apache-tomcat-9.0.21\webapps\host-manager]
+03-Oct-2020 10:15:00.944 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Program Files\apache-tomcat-9.0.21\webapps\host-manager] has finished in [46] ms
+03-Oct-2020 10:15:00.957 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\Program Files\apache-tomcat-9.0.21\webapps\manager]
+03-Oct-2020 10:15:00.988 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Program Files\apache-tomcat-9.0.21\webapps\manager] has finished in [30] ms
+03-Oct-2020 10:15:00.988 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\Program Files\apache-tomcat-9.0.21\webapps\peng_war]
+03-Oct-2020 10:15:02.298 警告 [main] org.apache.naming.NamingContext.lookup 解析引用时意外异常
+	java.sql.SQLException: Cannot create PoolableConnectionFactory (Unknown database 'webtest')
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:735)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:605)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.getLogWriter(BasicDataSource.java:1125)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.createDataSource(BasicDataSourceFactory.java:554)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance(BasicDataSourceFactory.java:236)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:325)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:840)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:827)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+		at org.apache.catalina.core.NamingContextListener.addResource(NamingContextListener.java:1017)
+		at org.apache.catalina.core.NamingContextListener.createNamingContext(NamingContextListener.java:557)
+		at org.apache.catalina.core.NamingContextListener.lifecycleEvent(NamingContextListener.java:253)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5048)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1867)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'webtest'
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+		at org.apache.tomcat.dbcp.dbcp2.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:53)
+		at org.apache.tomcat.dbcp.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:355)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.validateConnectionFactory(BasicDataSource.java:116)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:731)
+		... 54 more
+03-Oct-2020 10:15:02.303 警告 [main] org.apache.catalina.core.NamingContextListener.addResource naming.jmxRegistrationFailed
+03-Oct-2020 10:15:02.344 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+03-Oct-2020 10:15:02.381 警告 [main] org.apache.naming.NamingContext.lookup 解析引用时意外异常
+	java.sql.SQLException: Cannot create PoolableConnectionFactory (Unknown database 'webtest')
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:735)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:605)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.getLogWriter(BasicDataSource.java:1125)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.createDataSource(BasicDataSourceFactory.java:554)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance(BasicDataSourceFactory.java:236)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:325)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:840)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:827)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+		at org.apache.catalina.core.DefaultInstanceManager.lookupFieldResource(DefaultInstanceManager.java:581)
+		at org.apache.catalina.core.DefaultInstanceManager.processAnnotations(DefaultInstanceManager.java:486)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:174)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4604)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5143)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1867)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'webtest'
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+		at org.apache.tomcat.dbcp.dbcp2.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:53)
+		at org.apache.tomcat.dbcp.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:355)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.validateConnectionFactory(BasicDataSource.java:116)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:731)
+		... 55 more
+03-Oct-2020 10:15:02.385 严重 [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+03-Oct-2020 10:15:02.393 严重 [main] org.apache.catalina.core.StandardContext.startInternal Context [/peng_war] startup failed due to previous errors
+03-Oct-2020 10:15:02.400 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [peng_war] 注册了JDBC驱动程序 [com.mysql.cj.jdbc.Driver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+03-Oct-2020 10:15:02.400 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [peng_war] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.2/java.lang.Object.wait(Native Method)
+ java.base@11.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+ java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+03-Oct-2020 10:15:02.442 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Program Files\apache-tomcat-9.0.21\webapps\peng_war] has finished in [1,445] ms
+03-Oct-2020 10:15:02.442 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\Program Files\apache-tomcat-9.0.21\webapps\ROOT]
+03-Oct-2020 10:15:02.462 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Program Files\apache-tomcat-9.0.21\webapps\ROOT] has finished in [20] ms
+03-Oct-2020 10:15:02.462 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+03-Oct-2020 10:15:02.481 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["ajp-nio-8009"]
+03-Oct-2020 10:15:02.485 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in [3,023] milliseconds
+03-Oct-2020 10:15:06.874 信息 [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1038)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+03-Oct-2020 10:24:54.426 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:        Apache Tomcat/9.0.21
+03-Oct-2020 10:24:54.426 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.构建:          Jun 4 2019 20:19:36 UTC
+03-Oct-2020 10:24:54.426 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.21.0
+03-Oct-2020 10:24:54.426 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Oct-2020 10:24:54.426 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:            10.0
+03-Oct-2020 10:24:54.441 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 结.造:          amd64
+03-Oct-2020 10:24:54.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:             D:\Program Files\jdk\jdk-11.0.2
+03-Oct-2020 10:24:54.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:           11.0.2+9-LTS
+03-Oct-2020 10:24:54.445 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+03-Oct-2020 10:24:54.445 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\apache-tomcat-9.0.21
+03-Oct-2020 10:24:54.445 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\apache-tomcat-9.0.21
+03-Oct-2020 10:24:54.449 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Oct-2020 10:24:54.449 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Oct-2020 10:24:54.449 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Oct-2020 10:24:54.449 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\apache-tomcat-9.0.21\conf\logging.properties
+03-Oct-2020 10:24:54.449 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Oct-2020 10:24:54.456 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Oct-2020 10:24:54.456 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Oct-2020 10:24:54.456 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Oct-2020 10:24:54.461 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\apache-tomcat-9.0.21
+03-Oct-2020 10:24:54.462 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\apache-tomcat-9.0.21
+03-Oct-2020 10:24:54.462 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\apache-tomcat-9.0.21\temp
+03-Oct-2020 10:24:54.462 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\jdk\jdk-11.0.2\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\Program Files\jdk\jdk-11.0.2\bin;D:\Program Files\Linux\exe\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Git\cmd;D:\android\android-studio\jre\bin;D:\android\sdk;D:\android\sdk\platform-tools;;C:\Users\Administrator\nvmw;D:\Program Files\TortoiseGit\bin;D:\Program Files\Mysql\mysql-5.6.49-winx64\bin;D:\Program Files\apache-maven-3.5.0\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\vscode\Microsoft VS Code\bin;.]
+03-Oct-2020 10:24:54.686 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+03-Oct-2020 10:24:54.784 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["ajp-nio-8009"]
+03-Oct-2020 10:24:54.791 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[551]毫秒内初始化
+03-Oct-2020 10:24:54.826 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Oct-2020 10:24:54.826 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.21]
+03-Oct-2020 10:24:54.845 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.21\webapps\docs]
+03-Oct-2020 10:24:55.103 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-9.0.21\webapps\docs] has finished in [243] ms
+03-Oct-2020 10:24:55.103 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.21\webapps\examples]
+03-Oct-2020 10:24:55.372 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-9.0.21\webapps\examples] has finished in [269] ms
+03-Oct-2020 10:24:55.373 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.21\webapps\host-manager]
+03-Oct-2020 10:24:55.403 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-9.0.21\webapps\host-manager] has finished in [29] ms
+03-Oct-2020 10:24:55.403 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.21\webapps\manager]
+03-Oct-2020 10:24:55.430 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-9.0.21\webapps\manager] has finished in [26] ms
+03-Oct-2020 10:24:55.431 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.21\webapps\peng_war]
+03-Oct-2020 10:24:56.006 警告 [main] org.apache.naming.NamingContext.lookup 解析引用时意外异常
+	java.sql.SQLException: Cannot create PoolableConnectionFactory (Unknown database 'webtest')
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:735)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:605)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.getLogWriter(BasicDataSource.java:1125)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.createDataSource(BasicDataSourceFactory.java:554)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance(BasicDataSourceFactory.java:236)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:325)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:840)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:827)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+		at org.apache.catalina.core.NamingContextListener.addResource(NamingContextListener.java:1017)
+		at org.apache.catalina.core.NamingContextListener.createNamingContext(NamingContextListener.java:557)
+		at org.apache.catalina.core.NamingContextListener.lifecycleEvent(NamingContextListener.java:253)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5048)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1867)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'webtest'
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+		at org.apache.tomcat.dbcp.dbcp2.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:53)
+		at org.apache.tomcat.dbcp.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:355)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.validateConnectionFactory(BasicDataSource.java:116)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:731)
+		... 54 more
+03-Oct-2020 10:24:56.012 警告 [main] org.apache.catalina.core.NamingContextListener.addResource naming.jmxRegistrationFailed
+03-Oct-2020 10:24:56.046 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+03-Oct-2020 10:24:56.070 警告 [main] org.apache.naming.NamingContext.lookup 解析引用时意外异常
+	java.sql.SQLException: Cannot create PoolableConnectionFactory (Unknown database 'webtest')
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:735)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:605)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.getLogWriter(BasicDataSource.java:1125)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.createDataSource(BasicDataSourceFactory.java:554)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance(BasicDataSourceFactory.java:236)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:325)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:840)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:827)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+		at org.apache.catalina.core.DefaultInstanceManager.lookupFieldResource(DefaultInstanceManager.java:581)
+		at org.apache.catalina.core.DefaultInstanceManager.processAnnotations(DefaultInstanceManager.java:486)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:174)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4604)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5143)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1867)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'webtest'
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+		at org.apache.tomcat.dbcp.dbcp2.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:53)
+		at org.apache.tomcat.dbcp.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:355)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.validateConnectionFactory(BasicDataSource.java:116)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:731)
+		... 55 more
+03-Oct-2020 10:24:56.070 严重 [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+03-Oct-2020 10:24:56.080 严重 [main] org.apache.catalina.core.StandardContext.startInternal Context [/peng_war] startup failed due to previous errors
+03-Oct-2020 10:24:56.081 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [peng_war] 注册了JDBC驱动程序 [com.mysql.cj.jdbc.Driver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+03-Oct-2020 10:24:56.081 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [peng_war] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.2/java.lang.Object.wait(Native Method)
+ java.base@11.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+ java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+03-Oct-2020 10:24:56.094 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-9.0.21\webapps\peng_war] has finished in [663] ms
+03-Oct-2020 10:24:56.096 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.21\webapps\ROOT]
+03-Oct-2020 10:24:56.112 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-9.0.21\webapps\ROOT] has finished in [17] ms
+03-Oct-2020 10:24:56.112 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+03-Oct-2020 10:24:56.127 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["ajp-nio-8009"]
+03-Oct-2020 10:24:56.132 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in [1,341] milliseconds
+03-Oct-2020 10:25:00.814 信息 [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1038)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+03-Oct-2020 10:30:18.435 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:        Apache Tomcat/9.0.21
+03-Oct-2020 10:30:18.443 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.构建:          Jun 4 2019 20:19:36 UTC
+03-Oct-2020 10:30:18.443 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.21.0
+03-Oct-2020 10:30:18.445 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Oct-2020 10:30:18.446 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:            10.0
+03-Oct-2020 10:30:18.446 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 结.造:          amd64
+03-Oct-2020 10:30:18.446 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:             D:\Program Files\jdk\jdk-11.0.2
+03-Oct-2020 10:30:18.447 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:           11.0.2+9-LTS
+03-Oct-2020 10:30:18.447 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+03-Oct-2020 10:30:18.449 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\apache-tomcat-9.0.21
+03-Oct-2020 10:30:18.450 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\apache-tomcat-9.0.21
+03-Oct-2020 10:30:18.454 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Oct-2020 10:30:18.454 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Oct-2020 10:30:18.454 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Oct-2020 10:30:18.454 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\apache-tomcat-9.0.21\conf\logging.properties
+03-Oct-2020 10:30:18.455 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Oct-2020 10:30:18.455 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Oct-2020 10:30:18.456 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Oct-2020 10:30:18.457 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Oct-2020 10:30:18.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\apache-tomcat-9.0.21
+03-Oct-2020 10:30:18.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\apache-tomcat-9.0.21
+03-Oct-2020 10:30:18.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\apache-tomcat-9.0.21\temp
+03-Oct-2020 10:30:18.460 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\jdk\jdk-11.0.2\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\Program Files\jdk\jdk-11.0.2\bin;D:\Program Files\Linux\exe\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Git\cmd;D:\android\android-studio\jre\bin;D:\android\sdk;D:\android\sdk\platform-tools;;C:\Users\Administrator\nvmw;D:\Program Files\TortoiseGit\bin;D:\Program Files\Mysql\mysql-5.6.49-winx64\bin;D:\Program Files\apache-maven-3.5.0\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\vscode\Microsoft VS Code\bin;.]
+03-Oct-2020 10:30:18.705 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+03-Oct-2020 10:30:18.815 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["ajp-nio-8009"]
+03-Oct-2020 10:30:18.831 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[607]毫秒内初始化
+03-Oct-2020 10:30:18.880 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Oct-2020 10:30:18.881 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.21]
+03-Oct-2020 10:30:18.888 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.21\webapps\docs]
+03-Oct-2020 10:30:19.163 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-9.0.21\webapps\docs] has finished in [274] ms
+03-Oct-2020 10:30:19.164 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.21\webapps\examples]
+03-Oct-2020 10:30:19.449 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-9.0.21\webapps\examples] has finished in [284] ms
+03-Oct-2020 10:30:19.450 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.21\webapps\host-manager]
+03-Oct-2020 10:30:19.481 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-9.0.21\webapps\host-manager] has finished in [31] ms
+03-Oct-2020 10:30:19.482 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.21\webapps\manager]
+03-Oct-2020 10:30:19.504 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-9.0.21\webapps\manager] has finished in [23] ms
+03-Oct-2020 10:30:19.505 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.21\webapps\peng_war]
+03-Oct-2020 10:30:20.021 警告 [main] org.apache.naming.NamingContext.lookup 解析引用时意外异常
+	java.sql.SQLException: Cannot create PoolableConnectionFactory (Unknown database 'webtest')
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:735)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:605)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.getLogWriter(BasicDataSource.java:1125)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.createDataSource(BasicDataSourceFactory.java:554)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance(BasicDataSourceFactory.java:236)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:325)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:840)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:827)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+		at org.apache.catalina.core.NamingContextListener.addResource(NamingContextListener.java:1017)
+		at org.apache.catalina.core.NamingContextListener.createNamingContext(NamingContextListener.java:557)
+		at org.apache.catalina.core.NamingContextListener.lifecycleEvent(NamingContextListener.java:253)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5048)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1867)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'webtest'
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+		at org.apache.tomcat.dbcp.dbcp2.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:53)
+		at org.apache.tomcat.dbcp.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:355)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.validateConnectionFactory(BasicDataSource.java:116)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:731)
+		... 54 more
+03-Oct-2020 10:30:20.025 警告 [main] org.apache.catalina.core.NamingContextListener.addResource naming.jmxRegistrationFailed
+03-Oct-2020 10:30:20.067 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+03-Oct-2020 10:30:20.085 警告 [main] org.apache.naming.NamingContext.lookup 解析引用时意外异常
+	java.sql.SQLException: Cannot create PoolableConnectionFactory (Unknown database 'webtest')
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:735)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:605)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.getLogWriter(BasicDataSource.java:1125)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.createDataSource(BasicDataSourceFactory.java:554)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance(BasicDataSourceFactory.java:236)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:325)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:840)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:827)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+		at org.apache.catalina.core.DefaultInstanceManager.lookupFieldResource(DefaultInstanceManager.java:581)
+		at org.apache.catalina.core.DefaultInstanceManager.processAnnotations(DefaultInstanceManager.java:486)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:174)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4604)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5143)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1867)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'webtest'
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+		at org.apache.tomcat.dbcp.dbcp2.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:53)
+		at org.apache.tomcat.dbcp.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:355)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.validateConnectionFactory(BasicDataSource.java:116)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:731)
+		... 55 more
+03-Oct-2020 10:30:20.090 严重 [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+03-Oct-2020 10:30:20.092 严重 [main] org.apache.catalina.core.StandardContext.startInternal Context [/peng_war] startup failed due to previous errors
+03-Oct-2020 10:30:20.104 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [peng_war] 注册了JDBC驱动程序 [com.mysql.cj.jdbc.Driver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+03-Oct-2020 10:30:20.109 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [peng_war] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.2/java.lang.Object.wait(Native Method)
+ java.base@11.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+ java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+03-Oct-2020 10:30:20.115 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-9.0.21\webapps\peng_war] has finished in [610] ms
+03-Oct-2020 10:30:20.116 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.21\webapps\ROOT]
+03-Oct-2020 10:30:20.140 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-9.0.21\webapps\ROOT] has finished in [25] ms
+03-Oct-2020 10:30:20.146 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+03-Oct-2020 10:30:20.154 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["ajp-nio-8009"]
+03-Oct-2020 10:30:20.157 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in [1,324] milliseconds
+03-Oct-2020 10:30:24.838 信息 [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1038)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+03-Oct-2020 11:31:07.314 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:        Apache Tomcat/9.0.21
+03-Oct-2020 11:31:07.334 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.构建:          Jun 4 2019 20:19:36 UTC
+03-Oct-2020 11:31:07.334 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.21.0
+03-Oct-2020 11:31:07.334 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Oct-2020 11:31:07.334 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:            10.0
+03-Oct-2020 11:31:07.334 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 结.造:          amd64
+03-Oct-2020 11:31:07.334 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:             D:\Program Files\jdk\jdk-11.0.2
+03-Oct-2020 11:31:07.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:           11.0.2+9-LTS
+03-Oct-2020 11:31:07.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+03-Oct-2020 11:31:07.341 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Program Files\apache-tomcat-9.0.21
+03-Oct-2020 11:31:07.341 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Program Files\apache-tomcat-9.0.21
+03-Oct-2020 11:31:07.440 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Oct-2020 11:31:07.440 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Oct-2020 11:31:07.440 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Oct-2020 11:31:07.440 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Program Files\apache-tomcat-9.0.21\conf\logging.properties
+03-Oct-2020 11:31:07.440 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Oct-2020 11:31:07.440 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Oct-2020 11:31:07.440 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Oct-2020 11:31:07.440 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Oct-2020 11:31:07.440 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Program Files\apache-tomcat-9.0.21
+03-Oct-2020 11:31:07.440 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Program Files\apache-tomcat-9.0.21
+03-Oct-2020 11:31:07.440 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Program Files\apache-tomcat-9.0.21\temp
+03-Oct-2020 11:31:07.440 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\jdk\jdk-11.0.2\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\Program Files\jdk\jdk-11.0.2\bin;D:\Program Files\Linux\exe\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Git\cmd;D:\android\android-studio\jre\bin;D:\android\sdk;D:\android\sdk\platform-tools;;C:\Users\Administrator\nvmw;D:\Program Files\TortoiseGit\bin;D:\Program Files\Mysql\mysql-5.6.49-winx64\bin;D:\Program Files\apache-maven-3.5.0\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\vscode\Microsoft VS Code\bin;.]
+03-Oct-2020 11:31:07.834 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+03-Oct-2020 11:31:07.992 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["ajp-nio-8009"]
+03-Oct-2020 11:31:08.015 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1,106]毫秒内初始化
+03-Oct-2020 11:31:08.071 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Oct-2020 11:31:08.072 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.21]
+03-Oct-2020 11:31:08.080 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\Program Files\apache-tomcat-9.0.21\webapps\docs]
+03-Oct-2020 11:31:08.371 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Program Files\apache-tomcat-9.0.21\webapps\docs] has finished in [291] ms
+03-Oct-2020 11:31:08.381 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\Program Files\apache-tomcat-9.0.21\webapps\examples]
+03-Oct-2020 11:31:09.148 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Program Files\apache-tomcat-9.0.21\webapps\examples] has finished in [767] ms
+03-Oct-2020 11:31:09.148 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\Program Files\apache-tomcat-9.0.21\webapps\host-manager]
+03-Oct-2020 11:31:09.202 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Program Files\apache-tomcat-9.0.21\webapps\host-manager] has finished in [54] ms
+03-Oct-2020 11:31:09.202 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\Program Files\apache-tomcat-9.0.21\webapps\manager]
+03-Oct-2020 11:31:09.236 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Program Files\apache-tomcat-9.0.21\webapps\manager] has finished in [34] ms
+03-Oct-2020 11:31:09.236 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\Program Files\apache-tomcat-9.0.21\webapps\peng_war]
+03-Oct-2020 11:31:10.304 警告 [main] org.apache.naming.NamingContext.lookup 解析引用时意外异常
+	java.sql.SQLException: Cannot create PoolableConnectionFactory (Unknown database 'webtest')
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:735)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:605)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.getLogWriter(BasicDataSource.java:1125)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.createDataSource(BasicDataSourceFactory.java:554)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance(BasicDataSourceFactory.java:236)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:325)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:840)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:827)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+		at org.apache.catalina.core.NamingContextListener.addResource(NamingContextListener.java:1017)
+		at org.apache.catalina.core.NamingContextListener.createNamingContext(NamingContextListener.java:557)
+		at org.apache.catalina.core.NamingContextListener.lifecycleEvent(NamingContextListener.java:253)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5048)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1867)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'webtest'
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+		at org.apache.tomcat.dbcp.dbcp2.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:53)
+		at org.apache.tomcat.dbcp.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:355)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.validateConnectionFactory(BasicDataSource.java:116)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:731)
+		... 54 more
+03-Oct-2020 11:31:10.309 警告 [main] org.apache.catalina.core.NamingContextListener.addResource naming.jmxRegistrationFailed
+03-Oct-2020 11:31:10.338 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+03-Oct-2020 11:31:10.366 警告 [main] org.apache.naming.NamingContext.lookup 解析引用时意外异常
+	java.sql.SQLException: Cannot create PoolableConnectionFactory (Unknown database 'webtest')
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:735)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:605)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.getLogWriter(BasicDataSource.java:1125)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.createDataSource(BasicDataSourceFactory.java:554)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance(BasicDataSourceFactory.java:236)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:325)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:840)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:827)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+		at org.apache.catalina.core.DefaultInstanceManager.lookupFieldResource(DefaultInstanceManager.java:581)
+		at org.apache.catalina.core.DefaultInstanceManager.processAnnotations(DefaultInstanceManager.java:486)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:174)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4604)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5143)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1867)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'webtest'
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+		at org.apache.tomcat.dbcp.dbcp2.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:53)
+		at org.apache.tomcat.dbcp.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:355)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.validateConnectionFactory(BasicDataSource.java:116)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:731)
+		... 55 more
+03-Oct-2020 11:31:10.369 严重 [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+03-Oct-2020 11:31:10.369 严重 [main] org.apache.catalina.core.StandardContext.startInternal Context [/peng_war] startup failed due to previous errors
+03-Oct-2020 11:31:10.369 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [peng_war] 注册了JDBC驱动程序 [com.mysql.cj.jdbc.Driver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+03-Oct-2020 11:31:10.385 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [peng_war] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.2/java.lang.Object.wait(Native Method)
+ java.base@11.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+ java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+03-Oct-2020 11:31:10.435 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Program Files\apache-tomcat-9.0.21\webapps\peng_war] has finished in [1,199] ms
+03-Oct-2020 11:31:10.435 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\Program Files\apache-tomcat-9.0.21\webapps\ROOT]
+03-Oct-2020 11:31:10.455 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Program Files\apache-tomcat-9.0.21\webapps\ROOT] has finished in [20] ms
+03-Oct-2020 11:31:10.455 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+03-Oct-2020 11:31:10.475 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["ajp-nio-8009"]
+03-Oct-2020 11:31:10.479 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in [2,463] milliseconds
+03-Oct-2020 11:31:14.741 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Oct-2020 11:31:14.916 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Oct-2020 11:31:14.968 信息 [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1038)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+03-Oct-2020 11:31:14.975 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Oct-2020 11:31:15.001 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Oct-2020 11:31:15.004 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Oct-2020 11:31:15.014 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+03-Oct-2020 11:31:15.016 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["ajp-nio-8009"]

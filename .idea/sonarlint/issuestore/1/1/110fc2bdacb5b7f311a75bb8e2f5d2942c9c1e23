@@ -1,0 +1,4 @@
+
+[
+java:S1128"@Remove this unused import 'com.nefu.project1.entity.Table_bill'.(†Õ¨Ñ8ƒ‰¿³Û.
+f	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(½‚…?8ƒ‰¿³Û.
